@@ -1,3 +1,3 @@
-docker::image { 'bitfield/hello':
+docker::image { 'fredsobon/hello':
   ensure => latest,
 }
