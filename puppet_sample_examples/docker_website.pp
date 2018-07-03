@@ -1,7 +1,7 @@
 file { '/tmp/Dockerfile.nginx':
   content => epp('/examples/Dockerfile.website.epp',
     {
-      'git_url' => 'https://github.com/bitfield/pbg-website.git'
+      'git_url' => 'https://gitblabla/lapin.org/pbg-website.git'
     }
   ),
   notify  => Docker::Image['pbg-nginx'],

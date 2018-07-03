@@ -7,7 +7,7 @@ RUN apk update \
   && git clone <%= $git_url %> html
 
 LABEL org.label-schema.vendor="Bitfield Consulting" \
-  org.label-schema.url="http://bitfieldconsulting.com" \
+  org.label-schema.url="http://lapin.org" \
   org.label-schema.name="Nginx Git Website" \
   org.label-schema.version="1.0.0" \
   org.label-schema.vcs-url="github.com:bitfield/puppet-beginners-guide.git" \
